@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Oswald:300,400,700");
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Prompt:wght@100;200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto; 
+}
+
+nav {
+    padding: 1rem;
+    background-color: #333;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo a:hover {
+    font-size: 2rem;
+    color: orange;
+    transition: all 0.2s ease 0.2s;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li {
+    margin: 0 1rem;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none   ;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu li a:hover {
+    color: orange;
+    transition: all 0.2s ease 0.2s;
+}
+
+.btn-1 {
+    background-color: #000;
+    color: white;
+    border-radius: 30px;
+    transition: all 0.25s ease;
+}
+
+button {
+    padding: 20px 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border: 0px;
+    background: transparent;
+    position: relative;
+    margin: 20px;
+    transition: all 0.25s ease;
+}
+
+.hero {
+    background-color: #f0f0f0;
+}
+
+.hero-con {
+    display: flex;
+}
+
+.hero-info {
+    width: 150%;
+    padding: 2rem;
+}
+
+.hero-info h3 {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-info p {
+    margin: 1rem 0;
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+}
+
+.hero-info .hero-btn {
+    background-color: orange;
+    color: white;
+    padding: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-img img {
+    width: 100%;
+    padding: 2rem;
+}
+
+.zoom-hero {
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.zoom-hero:hover {
+    transform: scale(1.1);
+}
+
+.blog-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+    align-items: center;
+}
+
+.blog-title {
+    margin: 2rem 0;
+}
+
+.blog-title2 {
+    margin: 3rem 0;
+}
+
+.blog-title h3 {
+    font-size: 150%;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+.blog-title2 h3 {
+    font-size: 150%;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+
+.blog-title p {
+    margin: 1rem 0;
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+}
+
+.blog-title2 p {
+    margin: 1rem 0;
+    font-family: 'Prompt', sans-serif;
+    font-size: 20px;
+}
+
+.blog-item img {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.zoom-blog {
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+.zoom-blog:hover {
+    transform: scale(1.15);
+}    
+
+.blog-item h4 { 
+    margin-top: 2rem;
+    padding-right: 1rem;
+    font-family: 'Prompt', sans-serif;
+}
+
+.blog-item p {
+    margin: 1rem 0;
+    font-family: 'Prompt', sans-serif;
+}
+
+.blog-item a {
+    display: inline-block;
+    color: white;
+    background-color: orange;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Prompt', sans-serif;
+}
+
+.footer-top {
+    padding: 3rem;
+    margin-top: 2rem;
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-top-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.footer-top-item-con {
+    display: flex;
+    margin: 1rem 0;
+}
+
+.footer-top-item-con .date {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 0.5rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-right: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.social {
+  margin-bottom: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.social a {
+  margin-bottom: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-top-item:nth-child(2) h4 {
+    margin-bottom: 1rem;
+}
+
+.footer-top-item:nth-child(3) h4 {
+    margin-bottom: 1rem;
+}
+
+.footer-bottom {
+    background-color: #f0f0f0;
+    padding: 0.5rem;
+    text-align: center;
+}
